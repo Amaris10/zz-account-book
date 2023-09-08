@@ -19,15 +19,21 @@
         margin-right: 10px;
         font-size: 20px;
         font-weight: bold;
+        &.active {
+          font-size: 30px;
+          border-bottom: 2px solid #EDA667;
+          padding-bottom: 10px;
+        }
       }
     }
     .form {
-      padding: 0 6px;
+      padding: 20px 6px;
       :global {
         .za-cell {
           background-color: transparent;
           &::after {
             border-top: none;
+            background-color: transparent;
           }
         }
       }
